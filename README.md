@@ -1,12 +1,12 @@
 <h1 align="center">Projeto Agenda Telefônica</h1>
 
-##Descrição do Projeto
+Descrição do Projeto
 
 Projeto inicialmente proposto pela profª Jess através da {reprograma}. O intuito é reforçar o aprendizado
 dos verbos HTTP, e explorar meios de como fazer valer as regras de negócio propostas.
 O projeto consiste em criar uma agenda, com informações como nome, telefone, email e outros telefones.
 
-##Regras de Negócio
+Regras de Negócio
 
 - Não pode ter números iguais
 - Buscar por nome cadastrado
@@ -15,7 +15,7 @@ O projeto consiste em criar uma agenda, com informações como nome, telefone, e
 - Atualizar somente o campo telefone através do ID fornecido
 - Deletar cadastro através do ID fornecido
 
-##Rotas
+Rotas
 
 | Função | Rota|
 | --- | --- |
@@ -27,7 +27,7 @@ O projeto consiste em criar uma agenda, com informações como nome, telefone, e
 | Atualiza apenas o campo telefone através do ID | http://localhost:3000/agenda/update-phone/:id |
 | Deleta um cadastro através do ID | http://localhost:3000/agenda/delete/id |
 
-##Tecnologias e Ferramentas Utilizadas
+Tecnologias e Ferramentas Utilizadas
 
 Modelo de arquitetura: MVC;
 Linguagem: JavaScript;
@@ -36,7 +36,7 @@ Ambiente de execução: NodeJS;
 Gerenciador de Pacotes: NPM;
 Dependências: cors, express, mongoose e nodemon.
 
-##Como rodar a Aplicação
+Como rodar a Aplicação
 
 Faça clone ou fork do repositório
 No terminal, use o comando npm install para baixar as dependências
